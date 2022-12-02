@@ -1,0 +1,58 @@
+def biggestvalue(a,b):
+   if a>b:
+        print('A is big')
+   else:
+        print('B is big')
+print('\n***Model 1***\n')
+a=int(input('enter A value:'))
+b=int(input('enter B value:'))
+biggestvalue(a,b)
+
+
+
+
+
+def biggestvalue(a,b):
+   if a>b:
+        return'A is big'
+   else:
+        return'B is big'
+print('\n***Model 2***\n')
+a=int(input('Enter A value:'))
+b=int(input('Enter B value:'))
+print(biggestvalue(a,b))
+
+
+
+def biggestvalue(a,b):
+    if a>b:
+        return True
+    else:
+        return False
+print('\n***Model 3***\n')
+a=int(input('Enter A value:'))
+b=int(input('Enter B value:'))
+if(biggestvalue(a,b)):
+      print('A is big')
+else:
+      print('B is big')
+     
+     
+ OUTPUT:
+         ***Model 1***
+
+enter A value:12
+enter B value:10
+A is big
+
+***Model 2***
+
+Enter A value:15
+Enter B value:18
+B is big
+
+***Model 3***
+
+Enter A value:22
+Enter B value:18
+A is big   
