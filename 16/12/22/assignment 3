@@ -1,0 +1,17 @@
+str=input("Enter a string:")
+m=len(str)
+for i in range(0,m):
+    if str[i].isdigit()==1:
+        print(str[i],"is adigit")
+    else:
+        print(str[i],"is not a digit")
+
+OUTPUT:
+Enter a string:Gnana28
+G is not a digit
+n is not a digit
+a is not a digit
+n is not a digit
+a is not a digit
+2 is adigit
+8 is adigit
