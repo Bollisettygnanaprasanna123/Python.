@@ -1,0 +1,12 @@
+n=int(input())
+a=-1
+b=1
+for i in range(0,n):
+    c=a+b
+    a=b
+    b=c
+    print(c,end=' ')
+
+OUTPUT:
+4
+0 1 1 2 
