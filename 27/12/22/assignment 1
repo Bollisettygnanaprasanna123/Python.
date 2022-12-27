@@ -1,0 +1,26 @@
+print('Write a program to find the element from group of numbers and print whether element is found or not')
+n=int(input())
+l=list(map(int,input().split()))
+sl=int(input('enter element to found'))
+if sl in l:
+    print('element is found')
+    print('Located at',l.index(x))
+else:
+    print('element is not found')
+
+
+OUTPUT1:
+Write a program to find the element from group of numbers and print whether element is found or not
+6
+1 2 3 3 5 6
+enter element to found4
+element is not found
+
+OUTPUT 2:
+6
+1 2 3 3 5 6 
+enter element to found6
+element is found
+Located at 5
+
+    
