@@ -1,0 +1,24 @@
+n=int(input('How many values:'))
+l=list(map(int,input().split()))
+sl=int(input('enter element to found:'))
+c=0
+for i in range(0,n):
+    if l[i]==sl:
+       print(i,end='')
+       c=1
+if c==0:
+    print('-1')
+             
+
+OUTPUT 1:
+How many values:9
+1 7 9 4 5 1 7 9 0
+enter element to found:7
+16
+
+OUTPUT 2:
+How many values:9
+1 7 9 4 5 1 7 9 0
+enter element to found:14
+-1
+
