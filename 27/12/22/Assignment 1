@@ -1,0 +1,25 @@
+
+n=int(input('How many values:'))
+l=list(map(int,input().split()))
+sl=int(input('enter element to found:'))
+c=0
+for i in range(0,n):
+    if l[i]==sl:
+       print('element is found at index',i)
+       c=1
+       break
+if c==0:
+    print('element is not found')
+             
+OUTPUT 1:
+How many values:6 
+1 2 3 3 5 6 
+enter element to found:4
+element is not found
+
+OUTPUT 2:
+How many values:6
+1 2 3 3 5 6 
+enter element to found:6
+element is found at index 5
+    
