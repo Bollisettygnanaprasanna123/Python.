@@ -1,0 +1,15 @@
+n=int(input())
+l=list(map(int,input().split()))
+fact=0
+for i in range(0,n):
+    if l[i]%2==0:
+        fact+=1
+    
+print(fact)
+
+
+OUTPUT:
+
+5
+1 5 63 5 2
+1
